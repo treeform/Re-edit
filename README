@@ -1,0 +1,24 @@
+Re:Edit
+
+Client-server, in browser, code editor based on concept of shifting "boards"
+
+
+Diagram of sifting boards:
+     
+         ^ up 
+       board 1   board 2  board 3     ...
+     -----------         ----------- 
+     |         |         |         |
+     | pad   1 |---------| pad   4 |
+  <  |         |         |         |  >
+     ----------- pad   3 |         |
+     |         |         |         |
+     | pad   2 |---------|         |
+     |         |         |         |
+     -----------         ----------- 
+       \/ down
+         
+
+Boards contains pads. Pads can be attached to each other through pins. When pads shift so do the boards according to pinning strategy.
+
+This concept lossly based on sort of code bubbles (http://www.cs.brown.edu/people/acb/codebubbles_site.htm) but instead of a free flowing mess everything is constrained to boards and pad grids.        
